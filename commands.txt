@@ -1,0 +1,25 @@
+   71  mkdir hello-world
+   72  cd hello-world
+   73  git init
+   74  ls -la
+   75  ls -l .git/
+   76  pwd
+   77  vi readme.txt
+   78  ls -la
+   79  git status
+   80  git add readme.txt
+   81  git commit -m "first commit successful"
+   82  vi readme.txt
+   83  git diff
+   84  git config --global user.name deepakthorat82
+   85  history
+   86  git remote add origin https://github.com/deepakthorat82/hello-world.git
+   87  git push origin master
+   88  cat readme.txt
+   89  s -al
+   91  pwd
+   92  cat readme.txt
+   93  git add readme.txt
+   94  git commit -m "second commit successful"
+   95  git push origin master
+   96  history
